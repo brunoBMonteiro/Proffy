@@ -2,7 +2,7 @@ const Database = require('./db')
 const createProffy = require('./createProffy')
 
 
-Database.then(async(db) => {
+Database.then(async (db) => {
     // Inserir dados
     proffyValue = {
         name: "Bruno Bilheri",
@@ -63,5 +63,5 @@ Database.then(async(db) => {
             AND class_schedule.time_from <= "420"
             AND class_schedule.time_to > "420"
         `)
-        console.log(selectClassesSchedules)
+        //console.log(selectClassesSchedules)
 })
